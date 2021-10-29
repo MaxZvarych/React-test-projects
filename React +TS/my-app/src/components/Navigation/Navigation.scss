@@ -1,0 +1,19 @@
+$color: rgb(0, 255, 221);
+nav {
+  max-width: 30%;
+  min-width: 20%;
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    li {
+      list-style-type: none;
+      .link {
+        color: $color;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: bold;
+      }
+    }
+  }
+}

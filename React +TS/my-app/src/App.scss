@@ -1,0 +1,51 @@
+@mixin background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  // background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+  .routeWrapper {
+    @include background;
+    height: 100vh;
+    transition: background-image 2s linear 0.5s;
+    .wrapper {
+      height: 100vh;
+      background-color: rgba(148, 0, 211, 0.65);
+      @include background;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .pagination {
+        justify-self: flex-end;
+        margin-bottom: 2vh;
+        .ant-pagination-item-active {
+          background: #29d4cc;
+        }
+      }
+    }
+  }
+}
+
+.bg-1 {
+  background-image: url("./Images/background1.jfif");
+}
+
+.bg-2 {
+  background-image: url("https://imgcomfort.com/Userfiles/Upload/images/illustration-geiranger.jpg");
+}
+
+.bg-3 {
+  background-image: url("https://share.america.gov/wp-content/uploads/2018/01/shutterstock_411444634.jpg");
+}
+
+.bg-4 {
+  background-image: url("https://wallpapercave.com/wp/wp2562825.jpg");
+}
+
+.bg-5 {
+  background-image: url("https://viewfinder.expedia.com/wp-content/uploads/2020/05/Zoom_Bali_Indonesia.jpg");
+}

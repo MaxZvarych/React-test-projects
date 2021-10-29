@@ -1,0 +1,12 @@
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: initial;
+  p {
+    margin-left: -5px;
+  }
+  .img {
+    margin-left: -10px;
+  }
+}

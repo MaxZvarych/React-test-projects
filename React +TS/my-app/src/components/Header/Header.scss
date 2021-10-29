@@ -1,0 +1,16 @@
+$height: 15vh;
+$color: rgb(0, 255, 221);
+
+.header {
+  p {
+    font-size: 1.2rem;
+    margin-left: 2vw;
+  }
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: $height;
+  color: $color;
+}

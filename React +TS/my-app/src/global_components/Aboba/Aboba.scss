@@ -1,0 +1,11 @@
+.aboba {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 7vw;
+  max-width: 20vw;
+  color: rgb(0, 255, 221);
+  p {
+    font-weight: bold;
+  }
+}
